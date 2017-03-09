@@ -11,7 +11,7 @@ def histogram(image):
 def describe(image):
     image = cv2.cvtColor(image, cv2.COLOR_RGB2HSV)
     height, width = image.shape[:2]
-    center_x, center_y = [int(0, height / 2), int(0, width / 2)]
+    center_x, center_y = [int(height * 0.5), int(width * 0.5)]
 
     parts = [
         (0, center_x, 0, center_y),  # top-left

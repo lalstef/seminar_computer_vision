@@ -1,3 +1,5 @@
 py[cod]
 .idea
 *~
+.ipynb_checkpoints/
+*.ipynb
